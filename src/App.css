@@ -2,15 +2,18 @@ html,
 body {
   position: relative;
   margin: 0;
-  width: auto;
-  height: max-content;
+  width: 100vw;
+  height: 100vh;
   z-index: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "sans-serif";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body::before {
   content: "";
-  background-image: url("pixelartbg.jpg");
+  background-image: url("src/assets/pixelartbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -28,7 +31,7 @@ body::before {
 }
 
 .All-Container {
-  padding: 25px 60px 25px 60px;
+  padding: 25px 60px;
   width: min-content;
   height: fit-content;
   background: linear-gradient(
@@ -94,7 +97,7 @@ body::before {
   padding: 3px 6px 3px 4px;
   height: 34px;
   width: 100px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "sans-serif";
   margin-right: 15px;
   border-radius: 7px;
   border: 1px solid rgba(209, 213, 219, 1);
@@ -157,28 +160,28 @@ body::before {
 .About-Heading {
   margin: 0;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 14px;
   color: rgba(245, 245, 245, 1);
 }
 
 .About-Text {
   margin: 0;
   padding-top: 5px;
-  font-size: 11px;
+  font-size: 10px;
   color: rgba(220, 220, 220, 1);
 }
 
 .Interests-Heading {
   margin: 0;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 14px;
   color: rgba(245, 245, 245, 1);
 }
 
 .Interests-Text {
   margin: 0;
   padding-top: 5px;
-  font-size: 11px;
+  font-size: 10px;
   color: rgba(220, 220, 220, 1);
 }
 
