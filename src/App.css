@@ -1,0 +1,201 @@
+html,
+body {
+  position: relative;
+  margin: 0;
+  width: auto;
+  height: max-content;
+  z-index: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body::before {
+  content: "";
+  background-image: url("src/assets/images/pixelartbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+  opacity: 0.72;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.All-Container {
+  padding: 25px 60px 25px 60px;
+  width: min-content;
+  height: fit-content;
+  background: linear-gradient(
+    180deg,
+    rgb(189 111 58),
+    rgba(189, 52, 120, 0.952)
+  );
+  position: relative;
+  z-index: 1;
+  border-radius: 30px;
+  box-shadow: 2px 2px 9px 8px rgba(27, 16, 58, 0.31);
+}
+
+.Head-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.myImage {
+  box-shadow: 3px 1px 2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.Head-Container img {
+  width: 200px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.Head-Container h1 {
+  margin: 0;
+  color: white;
+  padding-top: 5px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Head-Container h2 {
+  margin: 0;
+  font-size: 13px;
+  line-height: 15px;
+  color: rgba(243, 191, 153, 1);
+  text-align: center;
+  font-weight: 400;
+}
+
+.Head-Container h3 {
+  margin: 0;
+  font-size: 11px;
+  color: rgba(245, 245, 245, 1);
+  font-weight: 400;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Btns {
+  text-align: center;
+  width: max-content;
+}
+
+.Mail {
+  padding: 3px 6px 3px 4px;
+  height: 34px;
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  margin-right: 15px;
+  border-radius: 7px;
+  border: 1px solid rgba(209, 213, 219, 1);
+  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.Mail a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(36, 35, 35);
+}
+
+.Mail a:hover,
+.Linkedin a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.Mail a img {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.Linkedin {
+  padding: 5px 6px 5px 4px;
+  height: 34px;
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  border-radius: 6px;
+  border: 1px solid rgba(190, 46, 94, 0.925);
+  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.082);
+  background-color: rgba(221, 49, 106, 0.925);
+}
+
+.Linkedin a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.986);
+}
+
+.Linkedin a img {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.About {
+  padding-top: 15px;
+}
+
+.About-Heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+  color: rgba(245, 245, 245, 1);
+}
+
+.About-Text {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 11px;
+  color: rgba(220, 220, 220, 1);
+}
+
+.Interests {
+}
+
+.Interests-Heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+  color: rgba(245, 245, 245, 1);
+}
+
+.Interests-Text {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 11px;
+  color: rgba(220, 220, 220, 1);
+}
+
+.Icons {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.Icons div a img {
+  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.082);
+}
+
+@media (max-width: 338px) and (orientation: portrait) {
+}
