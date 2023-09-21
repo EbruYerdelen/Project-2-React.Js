@@ -10,7 +10,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url("src/assets/images/pixelartbg.jpg");
+  background-image: url("pixelartbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
