@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Head from "./Head.jsx";
 import MainCont from "./MainCont.jsx";
